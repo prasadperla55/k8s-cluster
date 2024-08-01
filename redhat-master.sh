@@ -1,5 +1,7 @@
 #!/bin/bash
 echo "Updating system..."
+sudo hostnamectl set-hostname control-plane
+bash
 yum install docker -y 
 systemctl start docker  
 sudo setenforce 0
