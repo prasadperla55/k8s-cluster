@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo hostnamectl set-hostname control-plane
-bash
+echo "Updating system..."
 sudo apt-get update -y
 sudo apt-get install docker.io -y
 sudo apt-get install -y apt-transport-https ca-certificates curl gpg
