@@ -1,4 +1,3 @@
-sudo su -
 sudo hostnamectl set-hostname control-plane
 bash
 sudo apt-get update -y
